@@ -1,0 +1,324 @@
+@font-face {
+	font-family: light;
+	src: url(../fonts/helvetica_neue_light.ttf);
+}
+
+	@font-face {
+	font-family: neune_bold;
+	src: url(../fonts/helvetica_neue_bold.ttf);
+}
+
+
+	@font-face {
+	font-family: neue_roman;
+	src: url(../fonts/helvetica_neue_roman.ttf);
+}
+
+
+
+* {
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style-type: none;
+	margin:0;
+	padding: 0;
+	font-family: light;
+	color: #4d4d4d;
+}
+
+body {
+
+	max-width: 1080px;
+	margin: 0 auto;
+} 
+
+header {
+	margin-top: 12px;
+	display: flex;
+	justify-content: space-between;
+	height: 65px;
+	align-items: center;
+}
+.nav ul {
+	width: 220px;
+	display: flex;
+	justify-content: space-between;
+
+}
+.nav ul li a {
+	font-size: 20px;
+
+
+}
+
+article {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-bottom: 100px;
+
+}
+
+.articleh1 {
+	font-size: 82px;
+	font-weight: bold;
+	margin-bottom: 49px;
+}
+article p {
+
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 50px;
+
+}
+article a {
+	border: 1px solid  #707070;
+	padding: 15px 40px 15px 30px;
+	border-radius: 5px;
+	background-color: #707070;
+	font-size: 18px;
+	font-weight: bold;
+
+}
+.list {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	
+
+}
+.list li {
+	width: 400px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: row-reverse;
+}
+.list li::after {
+	content: "";
+	display: block;
+	width: 46px;
+	height: 7px;
+	background-color: #4d4d4d;
+	position: relative;
+	top: 52px;
+	left: 350px;
+}
+.list li h2 {
+	font-size: 15px;
+
+}
+.img {
+	position: relative;
+	top: -70px;
+}
+.products h2 {
+	font-size: 34px;
+	margin-bottom: 70px;
+}
+.products ul {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.products ul li {
+	width: 300px;
+	height: 480px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.svgs {
+	width: 300px;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.positions {
+	position: relative;
+	top: 100px;
+}
+.positioned {
+	position: relative;
+	top: 50px;
+}
+.img-list li img {
+	width: 350px;
+}
+.whyus {
+	margin-top: 100px;
+}
+.img-list {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 50px;
+}
+.first {
+	position: relative;
+}
+.second {
+	position: relative;
+}
+.third {
+	position: relative;
+}
+.first::before {
+	content: "ხარიხსი";
+	display: block;
+	position: absolute;
+	color: #FFF;
+	left: 20px;
+	top: 20px;
+}
+
+.first::after {
+	content: "01";
+	display:block;
+	position: absolute;
+	width: 30px;
+	height: 35px;
+	background-color: #FFF;
+	color: black;
+	bottom: 30px;
+	left: 30px;
+	text-align: center;
+}
+.second::before {
+	content: "ნდობა";
+	display: block;
+	position: absolute;
+	color: #FFF;
+	left: 20px;
+	top: 20px;
+}
+.second::after {
+	content: "02";
+	display:block;
+	position: absolute;
+	width: 30px;
+	height: 35px;
+	background-color: #FFF;
+	color: black;
+	bottom: 30px;
+	left: 30px;
+	text-align: center;
+}
+
+.third::before {
+	content: "კომფორტი";
+	display: block;
+	position: absolute;
+	color: #FFF;
+	left: 20px;
+	top: 20px;
+}
+.third::after {
+	content: "03";
+	display:block;
+	position: absolute;
+	width: 30px;
+	height: 35px;
+	background-color: #FFF;
+	color: black;
+	bottom: 30px;
+	left: 30px;
+	text-align: center;
+}
+
+
+footer {
+	position: absolute;
+	left: 0;
+	right: 0;
+	background-color: #f2f2f2;
+	height: 330px;
+	z-index: -1;
+
+	
+	
+}
+.containter {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 70px;
+	border-bottom:  1px solid #DDDDDD;
+	padding-bottom: 50px;
+
+}
+.footer-logo-div {
+	display: flex;
+	width: 380px;
+	justify-content: space-between;
+	
+
+}
+.footer-logo-div p {
+	width: 260px;
+	font-size: 11px;
+}
+.footer-list li a  {
+	font-size: 11px;
+}
+.footer-list {
+	line-height: 20px;
+}
+
+address {
+	display: flex;
+	flex-direction: column;
+	font-size: 11px
+}
+.address{
+	font-size: 11px;
+}
+
+.socials {
+	width: 100px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	align-self: flex-start;
+	margin-left: 1100px;
+	margin-top: 30px;
+}
+
+ @media screen and (max-width: 480px) {
+
+ 	.nav {
+ 		display: none;
+ 	}
+ 	.articleh1{
+ 		font-size: 43px;
+ 	}
+ 	.list li{
+ 		width: 320px;
+ 	}
+ 	.list li::after {
+ 		left: 120px;
+ 		top: 110px;
+ 	}
+
+ 	article {
+ 		flex-direction: column;
+ 	}
+ 	.list {
+ 		height: 1300px;
+ 		flex-direction: column;
+ 	}
+ 	.img-list {
+ 		flex-direction: column;
+ 	}
+ 	.socials {
+
+ 		flex-direction: column;
+ 		margin-left: 250px;
+ 		margin-top: -187px;
+ 	} 
+ 	.containter{
+ 		flex-direction: column;
+ 	}
+ }
